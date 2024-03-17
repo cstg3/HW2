@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script type="text/javascript" src="Calculator.js"></script>
+    <link rel="stylesheet" href="CalculatorStyle.css">
+</head>
+<body>
+    
+    <div class="items">
+        <form action="#" name="form">
+            <div class="result">
+                <input type="text" name="answer" id="answer">
+            </div>
+            <div class="buttons">
+                <input type="button" value="AC" name="ac" onclick="c()">
+                <input type="button" value="00" name="double0" onclick="val(double0.value)"> 
+                <input type="button" value="%" name="percent" onclick="calculatePercentage()">
+                <input type="button" value="/" name="div" onclick="val(div.value)">
+            </div>
+            <div class="buttons">
+                <input type="button" value="7" name="s7" onclick="val(s7.value)">
+                <input type="button" value="8"name="s8" onclick="val(s8.value)"> 
+                <input type="button" value="9" name="s9" onclick="val(s9.value)">
+                <input type="button" value="*"name="times" onclick="val(times.value)">
+            </div>
+            <div class="buttons">
+                <input type="button" value="4" name="s4"onclick="val(s4.value)">
+                <input type="button" value="5" name="s5" onclick="val(s5.value)"> 
+                <input type="button" value="6" name="s6" onclick="val(s6.value)">
+                <input type="button" value="-" name="minus" onclick="val(minus.value)">
+            </div>
+            <div class="buttons">
+                <input type="button" value="1" name="s1" onclick="val(s1.value)">
+                <input type="button" value="2" name="s2" onclick="val(s2.value)"> 
+                <input type="button" value="3" name="s3" onclick="val(s3.value)">
+                <input type="button" value="+" name="plus" onclick="val(plus.value)">
+            </div>
+            <div class="buttons">
+                <input type="button" value="0" name="s0" onclick="val(s0.value)">
+                <input type="button" value="." name="dot" onclick="val(dot.value)"> 
+                <input type="button" value="=" name="equl" onclick="cal()">
+                <input type="button" value="BACK" name="dle" onclick="back()">
+            </div>
+        </form>
+
+    </div>
+    <div class="back-to-index">
+        <a href="index.html">Back to Main Page</a>
+    </div>
+ 
+</body>
+</html>

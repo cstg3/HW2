@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "open Sans",sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(35, 72, 94);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu a{
+    display: inline-block;
+    margin: 30px;
+    padding: 12px 60px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    transition: .3s linear;
+}
